@@ -1,7 +1,7 @@
 var path=require('path');
 var webpack=require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var ExtractTextPlugin = require("extract-text-webpack-plugin"); // 为了抽离css样式
 
 module.exports={
     entry:[ //入口文件配置
